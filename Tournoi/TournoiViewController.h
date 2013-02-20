@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TournoiViewController : UIViewController
+@interface TournoiViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+
 
 @end

@@ -18,6 +18,8 @@
 		2F69894916D4C8B1002900F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F69894816D4C8B1002900F8 /* Default-568h@2x.png */; };
 		2F69894C16D4C8B1002900F8 /* TournoiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F69894B16D4C8B1002900F8 /* TournoiViewController.m */; };
 		2F69894F16D4C8B1002900F8 /* TournoiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F69894D16D4C8B1002900F8 /* TournoiViewController.xib */; };
+		2F69895716D4CA70002900F8 /* images3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F69895616D4CA70002900F8 /* images3.jpg */; };
+		2F69895916D4CCC4002900F8 /* like_ulike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F69895816D4CCC4002900F8 /* like_ulike.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		2F69894A16D4C8B1002900F8 /* TournoiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TournoiViewController.h; sourceTree = "<group>"; };
 		2F69894B16D4C8B1002900F8 /* TournoiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TournoiViewController.m; sourceTree = "<group>"; };
 		2F69894E16D4C8B1002900F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TournoiViewController.xib; sourceTree = "<group>"; };
+		2F69895616D4CA70002900F8 /* images3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images3.jpg; path = ../../images3.jpg; sourceTree = "<group>"; };
+		2F69895816D4CCC4002900F8 /* like_ulike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = like_ulike.jpg; path = ../../like_ulike.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		2F69893816D4C8B1002900F8 /* Tournoi */ = {
 			isa = PBXGroup;
 			children = (
+				2F69895516D4CA56002900F8 /* Ressources */,
 				2F69894116D4C8B1002900F8 /* TournoiAppDelegate.h */,
 				2F69894216D4C8B1002900F8 /* TournoiAppDelegate.m */,
 				2F69894A16D4C8B1002900F8 /* TournoiViewController.h */,
@@ -105,6 +110,15 @@
 				2F69894816D4C8B1002900F8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F69895516D4CA56002900F8 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				2F69895816D4CCC4002900F8 /* like_ulike.jpg */,
+				2F69895616D4CA70002900F8 /* images3.jpg */,
+			);
+			name = Ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +178,8 @@
 				2F69894716D4C8B1002900F8 /* Default@2x.png in Resources */,
 				2F69894916D4C8B1002900F8 /* Default-568h@2x.png in Resources */,
 				2F69894F16D4C8B1002900F8 /* TournoiViewController.xib in Resources */,
+				2F69895716D4CA70002900F8 /* images3.jpg in Resources */,
+				2F69895916D4CCC4002900F8 /* like_ulike.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
